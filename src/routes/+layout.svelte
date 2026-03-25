@@ -3,6 +3,8 @@
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import { resolve } from '$app/paths';
+	import type { RouteId } from '$app/types';
 
 	let { children } = $props();
 </script>
@@ -12,6 +14,6 @@
 
 <div style="display:none">
 	{#each locales as locale (locale)}
-		<a href={localizeHref(page.url.pathname, { locale })}>{locale}</a>
+		<a href={resolve(localizeHref(page.url.pathname, { locale }) as RouteId)} data-sveltekit-reload>{locale}</a>
 	{/each}
 </div>
