@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
-  let visible = true;
+  let visible = $state(false);
   onMount(() => setTimeout(() => visible = true, 100));
 
   function scrollToSection(id: string) {
