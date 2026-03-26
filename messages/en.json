@@ -5,5 +5,22 @@
 	"nav_experience": "Experience",
 	"nav_projects": "Projects",
 	"nav_contact": "Contact",
-	"nav_downloadCV": "Download CV"
+	"nav_downloadCV": "Download CV",
+	"hero_availableForWork": "Available for work",
+	"hero_greeting": "Hi, I'm",
+	"hero_name": "Davide Casadei",
+	"hero_title": "Fullstack Developer",
+	"hero_subtitle": "I build modern digital experiences with a passion for clean code and scalable architecture.",
+	"hero_cta": "Explore my work",
+	"hero_ctaContact": "Contact me",
+	"about_description1": "I'm a Fullstack Developer with over 10 years of experience building modern, scalable web and mobile applications. I work with both frontend and backend technologies, with a strong focus on user experience, performance and code maintainability.",
+	"about_description2": "I'm passionate about new technologies and clean architectures. When I'm not writing code, I enjoy praticing continuous learning.",
+	"about_title": "About Me",
+	"about_yearsExp": "Years of experience",
+	"about_projects": "Completed projects",
+	"skills_title": "Skills",
+	"skills_subtitle": "Technologies and tools I use daily",
+	"skills_frontend": "Frontend",
+	"skills_backend": "Backend",
+	"skills_tools": "Tools & DevOps"
 }
