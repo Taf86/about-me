@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 64">
+  <style>
+    .accent { fill: #6366f1; }
+    .text { fill: #111; font-family: monospace; font-size: 34px; font-weight: 800; }
+  </style>
+
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text">
+    <tspan class="accent">&lt;</tspan>DC<tspan class="accent">/&gt;</tspan>
+  </text>
+</svg>

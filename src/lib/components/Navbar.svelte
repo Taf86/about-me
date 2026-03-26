@@ -129,9 +129,6 @@
 		color: var(--text);
 		letter-spacing: -0.03em;
 	}
-	.logo-bracket {
-		color: var(--accent);
-	}
 	.nav-links {
 		display: flex;
 		align-items: center;

@@ -5,5 +5,12 @@
 	"nav_experience": "Esperienza",
 	"nav_projects": "Progetti",
 	"nav_contact": "Contatti",
-	"nav_downloadCV": "Scarica CV"
+	"nav_downloadCV": "Scarica CV",
+	"hero_availableForWork": "Available for work",
+	"hero_greeting": "Ciao, sono",
+	"hero_name": "Davide Casadei",
+	"hero_title": "Fullstack Developer",
+	"hero_subtitle": "Costruisco esperienze digitali moderne con passione per il clean code e l'architettura scalabile.",
+	"hero_cta": "Scopri il mio lavoro",
+	"hero_ctaContact": "Contattami"
 }
