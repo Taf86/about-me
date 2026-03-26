@@ -1,12 +1,10 @@
 <script lang="ts">
-	import { theme } from '$lib/stores/theme';
 	import { getLocale, setLocale } from '$lib/paraglide/runtime';
 	import { onMount } from 'svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { It, Gb } from 'svelte-flag-icons';
-	import Sun from './Sun.svelte';
-	import Moon from './Moon.svelte';
 	import Logo from './Logo.svelte';
+	import { theme } from '$lib/stores/theme';
 
 	let scrolled = $state(false);
 	let menuOpen = $state(false);
@@ -35,7 +33,6 @@
 		['hero', m.nav_about()],
 		['skills', m.nav_skills()],
 		['experience', m.nav_experience()],
-		['projects', m.nav_projects()],
 		['contact', m.nav_contact()]
 	];
 </script>
@@ -83,13 +80,6 @@
 					<It size="1rem" />
 				{:else}
 					<Gb size="1rem" />
-				{/if}
-			</button>
-			<button class="ctrl-btn theme-btn" onclick={() => theme.toggle()} title="Toggle theme">
-				{#if $theme === 'dark'}
-					<Sun />
-				{:else}
-					<Moon />
 				{/if}
 			</button>
 		</div>
