@@ -3,27 +3,27 @@
 	import { m } from '$lib/paraglide/messages';
 
 	const frontendSkills = [
-		{ name: 'TypeScript', level: 94, icon: '/typescript.svg' },
-		{ name: 'React', level: 82, icon: '/react.svg' },
-		{ name: 'SvelteKit', level: 60, icon: '/svelte.svg' },
-		{ name: 'CSS', level: 75, icon: './css.svg' },
-		{ name: 'Android', level: 87, icon: '/android.svg' }
+		{ name: 'TypeScript', level: 94, icon: 'typescript.svg' },
+		{ name: 'React', level: 82, icon: 'react.svg' },
+		{ name: 'SvelteKit', level: 60, icon: 'svelte.svg' },
+		{ name: 'CSS', level: 75, icon: 'css.svg' },
+		{ name: 'Android', level: 87, icon: 'android.svg' }
 	];
 
 	const backendSkills = [
-		{ name: 'Node.js', level: 92, icon: '/nodejs.svg' },
-		{ name: 'MongoDB', level: 88, icon: '/mongodb.svg' },
-		{ name: 'Redis', level: 75, icon: '/redis.svg' },
-		{ name: 'GraphQL', level: 93, icon: '/graphql.svg' },
-		{ name: 'PostgreSQL', level: 90, icon: '/postgresql.svg' }
+		{ name: 'Node.js', level: 92, icon: 'nodejs.svg' },
+		{ name: 'MongoDB', level: 88, icon: 'mongodb.svg' },
+		{ name: 'Redis', level: 75, icon: 'redis.svg' },
+		{ name: 'GraphQL', level: 93, icon: 'graphql.svg' },
+		{ name: 'PostgreSQL', level: 90, icon: 'postgresql.svg' }
 	];
 
 	const toolSkills = [
-		{ name: 'Docker', level: 78, icon: '/docker.svg' },
-		{ name: 'AWS', level: 72, icon: '/aws.svg' },
-		{ name: 'Git', level: 91, icon: '/git.svg' },
-		{ name: 'Jira', level: 70, icon: '/jira.svg' },
-		{ name: 'ChatGPT', level: 84, icon: '/openai.svg' }
+		{ name: 'Docker', level: 78, icon: 'docker.svg' },
+		{ name: 'AWS', level: 72, icon: 'aws.svg' },
+		{ name: 'Git', level: 91, icon: 'git.svg' },
+		{ name: 'Jira', level: 70, icon: 'jira.svg' },
+		{ name: 'ChatGPT', level: 84, icon: 'openai.svg' }
 	];
 
 	const skillGroups = [
