@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { config } from '$lib/config';
+	import { m } from '$lib/paraglide/messages';
 	import Logo from './Logo.svelte';
 
 	const year = new Date().getFullYear();
@@ -11,11 +13,11 @@
 				<Logo />
 			</span>
 			<p class="footer-text">
-				$t.footer.madeWith ❤️ $t.footer.and ☕ — Davide Casadei © {year}. $t.footer.rights.
+				{m.footer({ year })}
 			</p>
 			<div class="footer-links">
-				<a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-				<a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+				<a href={config.github} target="_blank" rel="noreferrer noopener external">GitHub</a>
+				<a href={config.linkedin} target="_blank" rel="noreferrer noopener external">LinkedIn</a>
 			</div>
 		</div>
 	</div>
@@ -40,9 +42,6 @@
 		font-family: 'JetBrains Mono', monospace;
 		font-weight: 700;
 		font-size: 1.1rem;
-	}
-	.bracket {
-		color: var(--accent);
 	}
 	.footer-text {
 		font-size: 0.82rem;

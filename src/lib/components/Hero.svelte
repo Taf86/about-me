@@ -33,7 +33,7 @@
 		</div>
 		<p class="subtitle">{m.hero_subtitle()}</p>
 		<div class="cta-group">
-			<button class="btn-primary" onclick={() => scrollToSection('projects')}>
+			<button class="btn-primary" onclick={() => scrollToSection('experience')}>
 				{m.hero_cta()}
 				<svg
 					width="16"
@@ -45,9 +45,6 @@
 				>
 					<path d="M5 12h14M12 5l7 7-7 7" />
 				</svg>
-			</button>
-			<button class="btn-secondary" onclick={() => scrollToSection('contact')}>
-				{m.hero_ctaContact()}
 			</button>
 		</div>
 		<div class="social-links">
@@ -260,22 +257,7 @@
 		transform: translateY(-2px);
 		box-shadow: 0 8px 24px rgba(99, 102, 241, 0.35);
 	}
-	.btn-secondary {
-		background: var(--surface);
-		color: var(--text);
-		border: 1px solid var(--border);
-		padding: 0.75rem 1.5rem;
-		border-radius: 8px;
-		font-size: 0.95rem;
-		font-weight: 600;
-		cursor: pointer;
-		transition: all 0.2s;
-		font-family: inherit;
-	}
-	.btn-secondary:hover {
-		background: var(--surface-hover);
-		transform: translateY(-2px);
-	}
+
 	.social-links {
 		display: flex;
 		gap: 0.75rem;

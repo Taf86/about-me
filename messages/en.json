@@ -11,7 +11,7 @@
 	"hero_name": "Davide Casadei",
 	"hero_title": "Fullstack Developer",
 	"hero_subtitle": "I build modern digital experiences with a passion for clean code and scalable architecture.",
-	"hero_cta": "Explore my work",
+	"hero_cta": "Explore my experiences",
 	"hero_ctaContact": "Contact me",
 	"about_description1": "I'm a Fullstack Developer with over 10 years of experience building modern, scalable web and mobile applications. I work with both frontend and backend technologies, with a strong focus on user experience, performance and code maintainability.",
 	"about_description2": "I'm passionate about new technologies and clean architectures. When I'm not writing code, I enjoy praticing continuous learning.",
@@ -40,5 +40,12 @@
 	"experience_job_3_role": "Junior Consultant",
 	"experience_job_3_company": "Altevie Technologies Srl",
 	"experience_job_3_period": "2014 - 2015",
-	"experience_job_3_description": "Consulting in the SAP CRM domain."
+	"experience_job_3_description": "Consulting in the SAP CRM domain.",
+	"title": "Contact",
+	"subtitle": "Let's talk about how I can help you",
+	"email": "Email",
+	"location": "Location",
+	"locationValue": "Cesena, Italy",
+	"available": "Available for collaborations",
+	"footer": "Made with ❤️ and ☕ — Davide Casadei © {year}. All rights reserved."
 }
